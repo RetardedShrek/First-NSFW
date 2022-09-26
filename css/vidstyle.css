@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: 0;
+}
+
+body{
+    background-image: linear-gradient(#1b1b1b, black);
+}
+
+h1{
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+video{
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 200px;
+    max-height: 90vh;
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: row nowrap;
+    color: white;
+    background-color: #1b1b1b;
+    height: 60px;
+    text-align: center;   
+}
+
+p{
+    width: 25%;
+}
