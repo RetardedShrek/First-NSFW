@@ -17,12 +17,15 @@ h1{
     margin-top: 20px;
 }
 
-video{
+video, iframe{
     width: 70%;
     margin-left: 15%;
     margin-bottom: 200px;
     max-height: 90vh;
+}
 
+iframe{
+    height: 80vh;
 }
 
 a{

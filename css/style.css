@@ -42,3 +42,18 @@ a{
 a:hover{
     color: inherit;
 }
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: row nowrap;
+    color: white;
+    background-color: #1b1b1b;
+    height: 60px;
+    text-align: center;   
+}
+
+p{
+    width: 25%;
+}
