@@ -31,7 +31,7 @@ article{
 
 video {
     width: 100%;
-    max-height: 85vh;
+    max-height: 80vh;
 }
 
 iframe {
@@ -60,3 +60,64 @@ footer {
 p {
     width: 25%;
 }
+
+/* ----------------PLAYLIST------------------*/
+
+/* (B) WRAPPER */
+#vWrap {
+    font-family: arial, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 70%;
+    margin-left: 15%;
+    margin-top: 40px;
+    background-color: inherit;
+  }
+  
+  /* (C) VIDEO */
+  #vVid {
+    width: 100%;
+  }
+  
+  /* (F1) RANGE SLIDERS */
+  /* (F1) HIDE DEFAULT */
+  #vWrap input[type="range"] {
+    box-sizing: border-box;
+    appearance: none;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    padding: 0;
+    margin: 0;
+    background: 0;
+  }
+  #vWrap input[type="range"]::-webkit-slider-thumb {
+    appearance: none;
+  }
+  
+  /* (F2) CUSTOM SLIDER TRACK */
+  #vWrap input[type=range]::-webkit-slider-runnable-track {
+    background: #626262;
+    border-radius: 10px;
+  }
+  #vWrap input[type=range]::-moz-range-track {
+    background: #626262;
+    border-radius: 10px;
+  }
+  /* (I) PLAYLIST */
+  #vList {
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    color: #7e7e7e;
+    background: #323232;
+  }
+  .vRow {
+    cursor: pointer;
+    padding: 5px 0;
+  }
+  .vRow.now {
+    color: #fea;
+  }
