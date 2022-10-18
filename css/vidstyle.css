@@ -71,7 +71,7 @@ p {
     align-items: center;
     max-width: 70%;
     margin-left: 15%;
-    margin-top: 40px;
+    margin-top: 20px;
     background-color: inherit;
   }
   
@@ -119,5 +119,6 @@ p {
     padding: 5px 0;
   }
   .vRow.now {
-    color: #fea;
+    color: white;
+    /* color: #fea; */
   }
