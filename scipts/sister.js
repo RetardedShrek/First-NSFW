@@ -7,6 +7,7 @@ window.addEventListener("DOMContentLoaded", () => {
       {name: "Karma RX Sister", src: "../vids/KarmaRX-sister.mp4"},
       {name: "Sweetkiss_69 Sister", src: "../vids/Sweetkiss_69-sister.mp4"},
       {name: "Brazilian Girl Sister", src: "../vids/Brazilian girl Sister.mp4"},
+      {name: "Isla White Sister", src: "../vids/Isla White Sister custom.mp4"},
     ];
   
     // (A2) VIDEO PLAYER & GET HTML CONTROLS

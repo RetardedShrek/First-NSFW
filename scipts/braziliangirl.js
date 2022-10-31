@@ -5,7 +5,8 @@ window.addEventListener("DOMContentLoaded", () => {
       {name: "Brazilian Girl Physical Dua Lipa 1", src: "../vids/Brazilian girl dancing Physical by Dua Lipa.mp4"},
       {name: "Brazilian Girl Levitating Dua Lipa", src: "../vids/Brazilian girl dancing Levitating by Dua Lipa.mp4"},
       {name: "Brazilian Girl Physical Dua Lipa 2", src: "../vids/Brazilian girl dancing Physical by Dua Lipa 2.mp4"},
-      {name: "Brazilian Girl Sister", src: "../vids/Brazilian girl Sister.mp4"},
+      {name: "Brazilian Girl Custom sister", src: "../vids/Brazilian girl Sister.mp4"},
+      {name: "Brazilian Girl Custom cop", src: "../vids/Brazilian Girl Custom cop.mp4"},
     ];
   
     // (A2) VIDEO PLAYER & GET HTML CONTROLS
