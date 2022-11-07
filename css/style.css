@@ -27,7 +27,7 @@ img {
 h1 {
     text-align: center;
     color: white;
-    font-size: 33px;
+    font-size: 200%;
     padding-bottom: 5px;
 }
 
@@ -36,8 +36,8 @@ a {
     text-decoration: none;
 }
 
-a.link{
-    padding: 5px 1%;
+a.link {
+    padding: 10px 1%;
     font-size: 17px;
     text-transform: uppercase;
 }
@@ -47,7 +47,7 @@ a.vid {
     margin: 2% 1.16%;
 }
 
-a.source{
+a.source {
     margin: 0;
     font-size: 10px;
 }
@@ -94,6 +94,8 @@ body {
     background-color: grey;
 }
 
+/* ----------------PLAYLIST------------------*/
+
 /* (B) WRAPPER */
 #vWrap {
     font-family: arial, sans-serif;
@@ -102,8 +104,9 @@ body {
     align-items: center;
     max-width: 70%;
     margin-left: 15%;
-    margin-top: 40px;
-    background: #484848;
+    margin-top: 20px;
+    background-color: 0;
+    
 }
 
 /* (C) VIDEO */
@@ -111,7 +114,6 @@ body {
     width: 100%;
 }
 
-/* (F1) RANGE SLIDERS */
 /* (F1) HIDE DEFAULT */
 #vWrap input[type="range"] {
     box-sizing: border-box;
@@ -124,7 +126,7 @@ body {
     background: 0;
 }
 
-#vWrap input[type="range"]::-webkit-slider-thumb {
+#v Wrap input[type="range"]::-webkit-slider-thumb {
     appearance: none;
 }
 
@@ -156,4 +158,5 @@ body {
 
 .vRow.now {
     color: white;
+    /* color: #fea; */
 }
