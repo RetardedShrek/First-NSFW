@@ -2,7 +2,7 @@ window.addEventListener("DOMContentLoaded", () => {
     // (A) PLAYER INIT
     // (A1) PLAYLIST - CHANGE TO YOUR OWN!
     let playlist = [
-      {name: "Ari Love Cop part 1", src: "../vids/Ari Love Cop part 1.mp4"},
+      //{name: "Ari Love Cop part 1", src: "../vids/Ari Love Cop part 1.mp4"},
       {name: "Ari Love Cop part 2", src: "../vids/Ari Love Cop part 2.mp4"},
       {name: "Brazilian Girl Custom cop", src: "../vids/Brazilian Girl Custom cop.mp4"},
       {name: "Sweetkiss_69 Cop part 1", src: "../vids/Sweetkiss_69-cop-part1.mp4"},
