@@ -26,13 +26,17 @@ img {
 
 h1 {
     text-align: center;
-    color: white;
+    color: darkgray;
     font-size: 200%;
     padding-bottom: 5px;
 }
 
+h1.title{
+    padding: 10px;
+}
+
 a {
-    color: white;
+    color: darkgray;
     text-decoration: none;
 }
 
@@ -49,7 +53,7 @@ a.vid {
 
 a.source {
     margin: 0;
-    font-size: 10px;
+    font-size: 9px;
 }
 
 footer {
@@ -57,7 +61,7 @@ footer {
     justify-content: center;
     align-items: center;
     flex-wrap: row nowrap;
-    color: white;
+    color: darkgray;
     background-color: #1b1b1b;
     height: 60px;
     text-align: center;
@@ -90,8 +94,33 @@ div.videos {
     justify-content: flex-start;
 }
 
-body {
-    background-color: grey;
+header {
+    overflow: hidden;
+    background-color: #0e0c0c;
+    padding: 10px 10px;
+}
+
+header a {
+    float: left;
+    color: darkgray;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 12px;
+    margin: 0 10px;
+}
+
+header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 10%;
+    padding: 12px 30px
+}
+
+header a:hover {
+    background-color: black;
 }
 
 /* ----------------PLAYLIST------------------*/
@@ -104,9 +133,7 @@ body {
     align-items: center;
     max-width: 70%;
     margin-left: 15%;
-    margin-top: 20px;
     background-color: 0;
-    
 }
 
 /* (C) VIDEO */
@@ -148,7 +175,7 @@ body {
     padding: 10px;
     margin: 10px;
     color: #7e7e7e;
-    background: #323232;
+    background: #272727;
 }
 
 .vRow {
@@ -157,6 +184,6 @@ body {
 }
 
 .vRow.now {
-    color: white;
+    color: darkgray;
     /* color: #fea; */
 }
