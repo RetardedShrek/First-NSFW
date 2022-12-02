@@ -40,12 +40,6 @@ a {
     text-decoration: none;
 }
 
-a.link {
-    padding: 10px 1%;
-    font-size: 17px;
-    text-transform: uppercase;
-}
-
 a.vid {
     flex-basis: 31%;
     margin: 2% 1.16%;
@@ -54,6 +48,10 @@ a.vid {
 a.source {
     margin: 0;
     font-size: 9px;
+}
+
+a.youtube{
+    margin-left: 48.3vw;
 }
 
 footer {
@@ -65,6 +63,7 @@ footer {
     background-color: #1b1b1b;
     height: 60px;
     text-align: center;
+    margin-top: 2vh;
 }
 
 p {
@@ -97,26 +96,26 @@ div.videos {
 header {
     overflow: hidden;
     background-color: #0e0c0c;
-    padding: 10px 10px;
+    padding: 1.2vh 0.7vw;
 }
 
 header a {
     float: left;
     color: darkgray;
     text-align: center;
-    padding: 12px;
+    padding: 0.7vw;
     text-decoration: none;
-    font-size: 18px;
-    line-height: 25px;
-    border-radius: 12px;
-    margin: 0 10px;
+    font-size: 0.97vw;
+    line-height: 2.5vh;
+    border-radius: 0.6vw;
+    margin: 0 0.5vw;
 }
 
 header a.logo {
-    font-size: 25px;
+    font-size: 1.4vw;
     font-weight: bold;
     margin-right: 10%;
-    padding: 12px 30px
+    padding: 0.7vw 1.7vw;
 }
 
 header a:hover {

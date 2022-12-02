@@ -4,6 +4,7 @@ window.addEventListener("DOMContentLoaded", () => {
     let playlist = [
       {name: "Physical Dua Lipa", src: "../vids/Brazilian girl dancing Physical by Dua Lipa.mp4"},
       {name: "Levitating Dua Lipa", src: "../vids/Brazilian girl dancing Levitating by Dua Lipa.mp4"},
+      {name: "Physical Dua Lipa 2", src: "../vids/Brazilian girl dancing Physical by Dua Lipa 2.mp4"},
     ];
   
     // (A2) VIDEO PLAYER & GET HTML CONTROLS
