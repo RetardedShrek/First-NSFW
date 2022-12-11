@@ -7,6 +7,7 @@ window.addEventListener("DOMContentLoaded", () => {
       {name: "TripleDBabe BELLY DANCING", src: "../vids/TripleDBabe BELLY DANCING.mp4"},
       {name: "Lissie Belle Long Skirt Belly Dance", src: "../vids/Lissie Belle Long Skirt Belly Dance.mp4"},
       {name: "Ruby_oharax Belly dancing", src: "../vids/ruby_oharax Belly dancing.mp4"},
+      {name: "Lori Taylor Belly dancing", src: "../vids/LoriTaylor Topless Belly Dance.mp4"},
     ];
   
     // (A2) VIDEO PLAYER & GET HTML CONTROLS

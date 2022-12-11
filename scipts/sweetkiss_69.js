@@ -6,8 +6,9 @@ window.addEventListener("DOMContentLoaded", () => {
       {name: "Sweetkiss_69 Cop part 2", src: "../vids/Sweetkiss_69-cop-part2.mp4"},
       {name: "Sweetkiss_69 Sister", src: "../vids/Sweetkiss_69-sister.mp4"},
       {name: "Sweetkiss_69 Unaware mom", src: "../vids/Sweetkiss_69 Unaware mom.mp4"},
+      {name: "Sweetkiss_69 Voyeur Milf Dream", src: "../vids/Sweetkiss_69 voyeur milf dream.mp4"},
     ];
-  
+   
     // (A2) VIDEO PLAYER & GET HTML CONTROLS
     const video = document.getElementById("vVid"),
           vList = document.getElementById("vList");
