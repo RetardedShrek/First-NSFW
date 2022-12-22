@@ -122,6 +122,11 @@ header a:hover {
     background-color: black;
 }
 
+img.testing{
+    max-height: 95vh;
+    width: auto;
+}
+
 /* ----------------PLAYLIST------------------*/
 
 /* (B) WRAPPER */
@@ -184,5 +189,4 @@ header a:hover {
 
 .vRow.now {
     color: darkgray;
-    /* color: #fea; */
 }
