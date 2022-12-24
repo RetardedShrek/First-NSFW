@@ -76,7 +76,7 @@ iframe {
 }
 
 article {
-    width: 80vw;
+    width: 70vw;
     margin-top: 2%;
     margin-bottom: 2%;
 }
@@ -128,10 +128,27 @@ header a:hover {
     background-color: black;
 }
 
-/* img.testing{
-    max-height: 90vh;
-    width: auto;
-} */
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 60px;
+    right: 20px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: #2b2b2b;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    border: #1b1b1b solid 2px;
+  }
+  
+  #myBtn:hover {
+    background-color: #1b1b1b;
+    color: black;
+  }
 
 /* ----------------PLAYLIST------------------*/
 
