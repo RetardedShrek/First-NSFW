@@ -42,7 +42,7 @@ a {
 
 a.vid {
     flex-basis: 31%;
-    margin: 2% 1.16%;
+    margin: 1% 1.16%;
 }
 
 a.source {
@@ -76,10 +76,9 @@ iframe {
 }
 
 article {
-    flex-basis: 65%;
-    margin-left: 17.5%;
+    width: 80vw;
     margin-top: 2%;
-    margin-bottom: 60px;
+    margin-bottom: 2%;
 }
 
 video {
@@ -89,8 +88,15 @@ video {
 
 div.videos {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.site{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 header {
@@ -122,10 +128,10 @@ header a:hover {
     background-color: black;
 }
 
-img.testing{
-    max-height: 95vh;
+/* img.testing{
+    max-height: 90vh;
     width: auto;
-}
+} */
 
 /* ----------------PLAYLIST------------------*/
 
