@@ -6,7 +6,6 @@ window.addEventListener("DOMContentLoaded", () => {
       {name: "LittleCSophie1 Belly button custom", src: "../vids/LittleCSophie1-belly-button-custom.mp4"},
       {name: "LittleCSophie1 Belly button", src: "../vids/LittleCSophie1 My mesmerizing belly button 4K.mp4"},
       {name: "Lily_Fox Belly button custom", src: "../vids/Lily_Fox Custom.mov"},
-     // {name: "IviRoses Belly buttom fetish cum with therapist", src: "../vids/IviRoses_Belly-buttom-fetish-cum-with-therapist.mp4"},
     ];
   
     // (A2) VIDEO PLAYER & GET HTML CONTROLS

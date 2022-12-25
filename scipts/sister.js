@@ -3,10 +3,10 @@ window.addEventListener("DOMContentLoaded", () => {
     // (A1) PLAYLIST - CHANGE TO YOUR OWN!
     let playlist = [
       {name: "Ari Love Sister part 1", src: "../vids/Ari Love Sister Part 1.mp4"},
-      //{name: "Ari Love Sister part 2", src: "../vids/Ari Love Sister Part 2.mp4"},
+      {name: "Ari Love Sister part 2", src: "../vids/Ari Love Sister Part 2.mp4"},
       {name: "Karma RX Sister", src: "../vids/KarmaRX-sister.mp4"},
       {name: "Sweetkiss_69 Sister", src: "../vids/Sweetkiss_69-sister.mp4"},
-      //{name: "Brazilian Girl Sister", src: "../vids/Brazilian girl Sister.mp4"},
+      {name: "Brazilian Girl Sister", src: "../vids/Brazilian girl Sister.mp4"},
       {name: "Isla White Sister", src: "../vids/Isla White Sister custom.mp4"},
     ];
   
