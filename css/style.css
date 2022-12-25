@@ -19,7 +19,7 @@ img.border {
     border: 2px #262626 solid;
 }
 
-img {
+img.site {
     width: 100%;
     border-radius: 2%;
 }
@@ -31,7 +31,7 @@ h1 {
     padding-bottom: 5px;
 }
 
-h1.title{
+h1.title {
     padding: 10px;
 }
 
@@ -48,9 +48,10 @@ a.vid {
 a.source {
     margin: 0;
     font-size: 9px;
+    padding: 10px;
 }
 
-a.youtube{
+a.youtube {
     margin-left: 48.3vw;
 }
 
@@ -70,20 +71,24 @@ p {
     width: 25%;
 }
 
-iframe {
-    width: 100%;
-    height: 74.6vh;
-}
-
-article {
-    width: 70vw;
+article, div.mySlides1, div.mySlides2 {
+    max-width: 70vw;
     margin-top: 2%;
     margin-bottom: 2%;
 }
 
-video {
+iframe {
     width: 100%;
-    max-height: 80vh;
+    height: 80vh;
+}
+
+video {
+    max-height: 85vh;
+    width: 100%;
+}
+
+article.embed {
+    width: 80vw;
 }
 
 div.videos {
@@ -93,7 +98,7 @@ div.videos {
     align-items: center;
 }
 
-div.site{
+div.site {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -138,17 +143,67 @@ header a:hover {
     border: none;
     outline: none;
     background-color: black;
-    color: #2b2b2b;
+    color: #999999;
     cursor: pointer;
     padding: 15px;
     border-radius: 4px;
-    border: #1b1b1b solid 2px;
-  }
+    border: #999999 solid 2px;
+}
   
-  #myBtn:hover {
+#myBtn:hover {
     background-color: #1b1b1b;
     color: black;
-  }
+}
+
+/* ----------------Slideshow------------------*/
+
+.mySlides1, .mySlides2 {
+    display: none
+}
+
+img.slide {
+    max-height: 90vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 70vw;
+  max-height: 90vh;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: #3b3b3b;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: rgba(241, 241, 241, 0.3);
+  color: black;
+}
 
 /* ----------------PLAYLIST------------------*/
 
