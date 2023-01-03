@@ -7,6 +7,7 @@ window.addEventListener("DOMContentLoaded", () => {
       {name: "Sweetkiss_69 Sister", src: "../vids/Sweetkiss_69-sister.mp4"},
       {name: "Sweetkiss_69 Unaware mom", src: "../vids/Sweetkiss_69 Unaware mom.mp4"},
       {name: "Sweetkiss_69 Voyeur Milf Dream flip", src: "../vids/Sweetkiss_69 voyeur milf dream flip.mp4"},
+      {name: "Sweetkiss_69 Mom cuck", src: "../vids/sweetkiss_69_mom-cucks-and-humiliates-you-pov.m4v"},
     ];
    
     // (A2) VIDEO PLAYER & GET HTML CONTROLS
